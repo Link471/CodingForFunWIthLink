@@ -8,7 +8,7 @@ import math
 
 def firstnumber():
     FirstNumber = input("First Number: ")
-    return (float(FirstNumber), secondnumber())
+    return (float(FirstNumber))
 
 
 def secondnumber():
@@ -22,6 +22,16 @@ def JDClear(arg):
     else:
         pass
     pass
+
+
+def JDSelectOperater():
+    FirstNumber = firstnumber()
+    operater = input("Select Operation: ")
+    if operater == "add" or operater == "addition" or operater == "+" or operater == "more":
+        JDAdd(FirstNumber)
+    elif operater == "subtract" or operater == "minus" or operater == "-" or operater == "less":
+        JDAdd(FirstNumber)
+    elif operater == 
 
 
 def JDAdd(arg):
