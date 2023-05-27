@@ -1,7 +1,7 @@
 # John David
 # 5/26/2023
 # Purpose: To create a calculator that can be accessed from either the command-line or the Python Shell
-# Version: 0.0
+# Version: 1.1
 
 import CalculatorFuncs as CalcF
 import sys
@@ -22,7 +22,7 @@ Step 2:
     This calculator handles the following operations:
 		- Addition        (Keywords: "add" "addition" "+" or "more"    )
 		- Subtraction     (Keywords: "subtract" "minus" "-" or "less"  )
-		- Multiplication  (Keywords: "times" multiply" "by" or "*"     )
+		- Multiplication  (Keywords: "times" multiply" "by" "*" or "x" )
 		- Division        (Keywords: "divide" "divided" or "/"         )
         - Powered UP      (Keywords: "raised" "powered" "**" or "^"    )
                     
@@ -40,7 +40,7 @@ def __main__(argv):
     print(f"Welcome to JDCalculator! \nVersion: 0.0\n\n")
     CalcHelp()
     while True:
-        print(CalcF.JDSelectOperater())
+        CalcF.JDSelectOperater()
 
 
 if __name__ == "__main__":

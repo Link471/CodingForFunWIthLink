@@ -1,7 +1,7 @@
 # John David
 # 5/26/2023
 # Purpose: To store the functions used in Calculator.py
-# Version: 0.0
+# Version: 1.1
 
 import math
 
@@ -30,11 +30,13 @@ def JDSelectOperater():
     if operater == "add" or operater == "addition" or operater == "+" or operater == "more":
         JDAdd(FirstNumber)
     elif operater == "subtract" or operater == "minus" or operater == "-" or operater == "less":
-        JDAdd(FirstNumber)
-    elif operater == "times" or operater == "multiply" or operater == "by" or operater == "*":
-        JDAdd(FirstNumber)
+        JDSubtract(FirstNumber)
+    elif operater == "times" or operater == "multiply" or operater == "by" or operater == "*" or operater == 'x':
+        JDMultiply(FirstNumber)
     elif operater == "divide" or operater == "divided" or operater == "/":
         JDDivide(FirstNumber)
+    else:
+        print("Not a recgonized value: Please Try again:")
 
 
 def JDAdd(arg):
@@ -48,10 +50,10 @@ def JDSubtract(arg):
 
 
 def JDMultiply(arg):
-    result = arg - secondnumber()
-    return result
+    result = arg * secondnumber()
+    return print(result)
 
 
 def JDDivide(arg):
     result = arg / secondnumber()
-    return result
+    return print(result)
