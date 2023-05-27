@@ -8,7 +8,7 @@ import math
 
 def firstnumber():
     FirstNumber = input("First Number: ")
-    return (float(FirstNumber))
+    return float(FirstNumber)
 
 
 def secondnumber():
@@ -34,36 +34,24 @@ def JDSelectOperater():
     elif operater == "times" or operater == "multiply" or operater == "by" or operater == "*":
         JDAdd(FirstNumber)
     elif operater == "divide" or operater == "divided" or operater == "/":
-
+        JDDivide(FirstNumber)
 
 
 def JDAdd(arg):
-    if arg:
-        pass
-    else:
-        pass
-    pass
+    result = arg + secondnumber()
+    return print(result)
 
 
 def JDSubtract(arg):
-    if arg:
-        pass
-    else:
-        pass
-    pass
+    result = arg - secondnumber()
+    return print(result)
 
 
 def JDMultiply(arg):
-    if arg:
-        pass
-    else:
-        pass
-    pass
+    result = arg - secondnumber()
+    return result
 
 
 def JDDivide(arg):
-    if arg:
-        pass
-    else:
-        pass
-    pass
+    result = arg / secondnumber()
+    return result

@@ -22,8 +22,9 @@ Step 2:
     This calculator handles the following operations:
 		- Addition        (Keywords: "add" "addition" "+" or "more"    )
 		- Subtraction     (Keywords: "subtract" "minus" "-" or "less"  )
-		- Multiplication  (Keywords: "times" multiply" or "by" or "*"  )
-		- Division        (Keywords: "divide" or "divided" or "/"      )
+		- Multiplication  (Keywords: "times" multiply" "by" or "*"     )
+		- Division        (Keywords: "divide" "divided" or "/"         )
+        - Powered UP      (Keywords: "raised" "powered" "**" or "^"    )
                     
 Step 3:
 	- Input the second number you want to operate with on the line which should say "Second Number:"
