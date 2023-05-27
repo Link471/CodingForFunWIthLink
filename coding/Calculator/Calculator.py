@@ -11,7 +11,6 @@ def calculator(operation, numbers):
     pass
 
 
-
 def CalcHelp():
     print(f"""This is JDCalc's help screen:
 Step 1: 
@@ -21,10 +20,10 @@ Step 2:
 	- Write out which operation you would like to perform on the line which should say "Sekect Operation: "
 	
     This calculator handles the following operations:
-		- Addition        (Keywords: "add" "addition" "+" or "more"  )
-		- Subtraction     (Keywords: "subtract" minus" "-" or "less" )
-		- Multiplication  (Keywords: "times" multiply" or "by"       )
-		- Division        (Keywords: "divide" or "divided"           )
+		- Addition        (Keywords: "add" "addition" "+" or "more"    )
+		- Subtraction     (Keywords: "subtract" "minus" "-" or "less"  )
+		- Multiplication  (Keywords: "times" multiply" or "by" or "*"  )
+		- Division        (Keywords: "divide" or "divided" or "/"      )
                     
 Step 3:
 	- Input the second number you want to operate with on the line which should say "Second Number:"
@@ -36,7 +35,7 @@ Step 4:
 
 
 def __main__(argv):
-    
+
     print(f"Welcome to JDCalculator! \nVersion: 0.0\n\n")
     CalcHelp()
     while True:
@@ -45,4 +44,3 @@ def __main__(argv):
 
 if __name__ == "__main__":
     __main__(sys.argv)
-

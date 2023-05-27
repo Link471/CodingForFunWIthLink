@@ -31,7 +31,10 @@ def JDSelectOperater():
         JDAdd(FirstNumber)
     elif operater == "subtract" or operater == "minus" or operater == "-" or operater == "less":
         JDAdd(FirstNumber)
-    elif operater == 
+    elif operater == "times" or operater == "multiply" or operater == "by" or operater == "*":
+        JDAdd(FirstNumber)
+    elif operater == "divide" or operater == "divided" or operater == "/":
+
 
 
 def JDAdd(arg):
