@@ -6,8 +6,12 @@
 import math
 
 
-def firstnumber():
-    FirstNumber = input("First Number: ")
+def firstnumber(arg=0):
+    print(arg, bool(arg), "chicken nugget")
+    if arg:
+        FirstNumber = arg
+    else:
+        FirstNumber = input("First Number: ")
     return float(FirstNumber)
 
 
@@ -16,15 +20,7 @@ def secondnumber():
     return float(SecondNumber)
 
 
-def JDClear(arg):
-    if arg:
-        pass
-    else:
-        pass
-    pass
-
-
-def JDSelectOperater():
+def InputCheck():
     FirstNumber = firstnumber()
     operater = input("Select Operation: ")
     if operater == "add" or operater == "addition" or operater == "+" or operater == "more":
@@ -35,6 +31,9 @@ def JDSelectOperater():
         JDMultiply(FirstNumber)
     elif operater == "divide" or operater == "divided" or operater == "/":
         JDDivide(FirstNumber)
+    # This will be setting up the use of clearing the result from the running memmory.
+    elif operater == "c" or operater == "CE":
+        pass
     else:
         print("Not a recgonized value: Please Try again:")
 

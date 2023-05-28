@@ -39,8 +39,7 @@ def __main__(argv):
 
     print(f"Welcome to JDCalculator! \nVersion: 0.0\n\n")
     CalcHelp()
-    while True:
-        CalcF.JDSelectOperater()
+    CalcF.InputCheck()
 
 
 if __name__ == "__main__":
